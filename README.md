@@ -1,134 +1,75 @@
-# JavaScript-utils
+# JavaScript-utils 
+============
 
-### Array  
-#### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
-#### &emsp;&emsp;[arrayRemoveRepeat][arrayRemoveRepeat]&emsp;&emsp;数组去重
-#### &emsp;&emsp;[arrayDisorder][arrayDisorder]&emsp;&emsp;打乱数组顺序
-#### &emsp;&emsp;[maxArr][maxArr]&emsp;&emsp;找出数组中的最大值
-#### &emsp;&emsp;[minArr][minArr]&emsp;&emsp;找出数组中的最小值
-#### &emsp;&emsp;[arraySum][arraySum]&emsp;&emsp;数组求和
-#### &emsp;&emsp;[arrayRandom][arrayRandom]&emsp;&emsp;从数组中随机获取元素
-#### &emsp;&emsp;[getEleCount][getEleCount]&emsp;&emsp;返回数组或字符串中一个元素出现的次数
-#### &emsp;&emsp;[getCount][getCount]&emsp;&emsp;返回数组(或字符串)中出现最多的元素和出现次数
-#### &emsp;&emsp;[arrayFlattening][arrayFlattening]&emsp;&emsp;数组扁平化
+> JavaScript工具函数库
 
-### Class
-#### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
-#### &emsp;&emsp;[hasClass][hasClass]&emsp;&emsp;判断元素是否有某个class  
-#### &emsp;&emsp;[removeClass][removeClass]&emsp;&emsp;为元素移除class  
+### array
+* [arrayDisorder]&emsp;&emsp;[打乱数组顺序](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayDisorder.js)
+* [arrayEqual]&emsp;&emsp;[判断两个数组是否相等](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayEqual.js)
+* [arrayFlattening]&emsp;&emsp;[数组扁平化](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayFlattening.js)
+* [arrayRandom]&emsp;&emsp;[从数组中随机获取元素](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayRandom.js)
+* [arrayRemoveRepeat]&emsp;&emsp;[数组去重](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayRemoveRepeat.js)
+* [arraySum]&emsp;&emsp;[数组求和（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arraySum.js)
+* [getCount]&emsp;&emsp;[返回数组(或字符串)中出现最多的元素和出现次数](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/getCount.js)
+* [getEleCount]&emsp;&emsp;[返回数组或字符串中一个元素出现的次数](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/getEleCount.js)
+* [maxArr]&emsp;&emsp;[找出数组中的最大值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/maxArr.js)
+* [minArr]&emsp;&emsp;[找出数组中的最小值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/minArr.js)
 
-### Cookie 
-#### &emsp;&emsp;[getCookie][getCookie]&emsp;&emsp;根据name读取Cookie  
-#### &emsp;&emsp;[removeCookie][removeCookie]&emsp;&emsp;根据name删除Cookie
-#### &emsp;&emsp;[setCookie][setCookie]&emsp;&emsp;添加Cookie 
+## string
+* [changeCase]&emsp;&emsp;[大小写转换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/changeCase.js)
+* [digitUppercase]&emsp;&emsp;[现金额转大写](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/digitUppercase.js)
+* [removeSpace]&emsp;&emsp;[字符串去除空格](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/removeSpace.js)
+* [repeatCopy]&emsp;&emsp;[字符串重复复制](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/repeatCopy.js)
+* [stringFormat]&emsp;&emsp;[格式化字符串](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringFormat.js)
+* [stringReplace]&emsp;&emsp;[字符串替换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringReplace.js)
 
-### Device  
-#### &emsp;&emsp;[getExplore][getExplore]&emsp;&emsp;获取浏览器类型和版本号  
-#### &emsp;&emsp;[getOS][getOS]&emsp;&emsp;获取操作系统类型
+## object
+* [dataType]&emsp;&emsp;[数据类型判断](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/dataType.js)
+* [deepClone]&emsp;&emsp;[深拷贝，支持常见类型](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/deepClone.js)
+* [isEmptyObject]&emsp;&emsp;[判断`obj`是否为空](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/isEmptyObject.js)
 
-### Dom  
-#### &emsp;&emsp;[getScrollTop][getScrollTop]&emsp;&emsp;获取滚动条距顶部的距离
-#### &emsp;&emsp;[offset][offset]&emsp;&emsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()
-#### &emsp;&emsp;[scrollTo][scrollTo]&emsp;&emsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置
-#### &emsp;&emsp;[setScrollTop][setScrollTop]&emsp;&emsp;设置滚动条距顶部的距离
+## function
+* [debounce]&emsp;&emsp;[函数防抖](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/debounce.js)
+* [throttle]&emsp;&emsp;[函数节流](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/throttle.js)
 
-### Function  
-#### &emsp;&emsp;[debounce][debounce]&emsp;&emsp;函数防抖   
-#### &emsp;&emsp;[throttle][throttle]&emsp;&emsp;函数节流   
+## dom
+* [addClass]&emsp;&emsp;[为元素添加class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/addClass.js)
+* [hasClass]&emsp;&emsp;[判断元素是否有某个class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/hasClass.js)
+* [removeClass]&emsp;&emsp;[为元素移除class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/removeClass.js)
 
-### Keycode  
-#### &emsp;&emsp;[getKeyName][getKeyName]&emsp;&emsp;根据keycode获得键名 
+## bom
+* [getScrollTop]&emsp;&emsp;[获取滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/getScrollTop.js)
+* [isSupportWebP]&emsp;&emsp;[设置滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
+* [offset]&emsp;&emsp;[在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
+* [scrollTo]&emsp;&emsp;[获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
+* [setScrollTop]&emsp;&emsp;[判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/setScrollTop.js)
 
-### Object  
-#### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
-#### &emsp;&emsp;[isEmptyObject][isEmptyObject]&emsp;&emsp;判断Object是否为空
-#### &emsp;&emsp;[dataType][dataType]&emsp;&emsp;判断Object是否为空
+## date
+* [formatPassTime]&emsp;&emsp;[格式化${startTime}距现在的已过时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatPassTime.js)
+* [formatRemainTime]&emsp;&emsp;[格式化现在距${endTime}的剩余时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatRemainTime.js)
 
-### Random  
-#### &emsp;&emsp;[randomColor][randomColor] &emsp;&emsp;随机生成颜色
-#### &emsp;&emsp;[randomNum][randomNum]&emsp;&emsp;生成指定范围随机数 
+## random
+* [randomColor]&emsp;&emsp;[随机生成颜色](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomColor.js)
+* [randomNum]&emsp;&emsp;[生成指定范围随机数](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomNum.js)
 
-### RegExp  
-#### &emsp;&emsp;[isEmail][isEmail]&emsp;&emsp;判断是否为邮箱地址 
-#### &emsp;&emsp;[isIdCard][isIdCard]&emsp;&emsp;判断是否为身份证号
-#### &emsp;&emsp;[isPhoneNum][isPhoneNum]&emsp;&emsp;判断是否为手机号  
-#### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
+## regexp
+* [isEmail]&emsp;&emsp;[判断是否为邮箱地址](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isEmail.js)
+* [isIdCard]&emsp;&emsp;[判断是否为身份证号](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isIdCard.js)
+* [isPhoneNum]&emsp;&emsp;[判断是否为手机号](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isPhoneNum.js)
+* [isUrl]&emsp;&emsp;[判断是否为URL地址](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isUrl.js)
 
-### String  
-#### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
-#### &emsp;&emsp;[removeSpace][removeSpace]&emsp;&emsp;去除空格
-#### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;大小写转换
-#### &emsp;&emsp;[repeatCopy][repeatCopy]&emsp;&emsp;重复复制
-#### &emsp;&emsp;[stringReplace][stringReplace]&emsp;&emsp;字符串替换
-#### &emsp;&emsp;[stringFormat][stringFormat]&emsp;&emsp;字符串格式化
+## url
+* [parseQueryString]&emsp;&emsp;[url参数转对象](https://github.com/striveDJiang/JavaScript-utils/blob/master/url/parseQueryString.js)
+* [stringfyQueryString]&emsp;&emsp;[对象序列化](https://github.com/striveDJiang/JavaScript-utils/blob/master/url/stringfyQueryString.js)
 
-### Support  
-#### &emsp;&emsp;[isSupportWebP][isSupportWebP]&emsp;&emsp;判断浏览器是否支持webP格式图片
-#### 
+## cookie
+* [getCookie]&emsp;&emsp;[根据name读取cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/getCookie.js)
+* []&emsp;&emsp;[根据name删除cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/removeCookie.js)
+* [removeCookie]&emsp;&emsp;[根据name删除cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/removeCookie.js)
+* [setCookie]&emsp;&emsp;[设置Cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/setCookie.js)
 
-### Time  
-#### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化${startTime}距现在的已过时间
-#### &emsp;&emsp;[formatRemainTime][formatRemainTime]&emsp;&emsp;格式化现在距${endTime}的剩余时间
+## device
+* [getExplore]&emsp;&emsp;[获取浏览器类型和版本](https://github.com/striveDJiang/JavaScript-utils/blob/master/device/getExplore.js)
+* [getOS]&emsp;&emsp;[获取操作系统类型](https://github.com/striveDJiang/JavaScript-utils/blob/master/device/getOS.js)
+* [getKeyName]&emsp;&emsp;[根据keycode获得键名](https://github.com/striveDJiang/JavaScript-utils/blob/master/device/getKeyName.js)
 
-### Url
-#### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
-#### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
-
-[arrayEqual]:https://github.com/striveDJiang/utils/blob/master/array/arrayEqual.js
-[arrayRemoveRepeat]:https://github.com/striveDJiang/utils/blob/master/array/arrayRemoveRepeat.js
-[arrayDisorder]:https://github.com/striveDJiang/utils/blob/master/array/arrayDisorder.js
-[maxArr]:https://github.com/striveDJiang/utils/blob/master/array/maxArr.js
-[minArr]:https://github.com/striveDJiang/utils/blob/master/array/minArr.js
-[arraySum]:https://github.com/striveDJiang/utils/blob/master/array/arraySum.js
-[arrayRandom]:https://github.com/striveDJiang/utils/blob/master/array/arrayRandom.js
-[getEleCount]:https://github.com/striveDJiang/utils/blob/master/array/getEleCount.js
-[getCount]:https://github.com/striveDJiang/utils/blob/master/array/getCount.js
-[arrayFlattening]:https://github.com/striveDJiang/utils/blob/master/array/arrayFlattening.js
-
-[addClass]:https://github.com/striveDJiang/utils/blob/master/class/addClass.js
-[hasClass]:https://github.com/striveDJiang/utils/blob/master/class/hasClass.js
-[removeClass]:https://github.com/striveDJiang/utils/blob/master/class/removeClass.js
-
-[getCookie]:https://github.com/striveDJiang/utils/blob/master/cookie/getCookie.js
-[removeCookie]:https://github.com/striveDJiang/utils/blob/master/cookie/removeCookie.js
-[setCookie]:https://github.com/striveDJiang/utils/blob/master/cookie/setCookie.js
-
-[getExplore]:https://github.com/striveDJiang/utils/blob/master/device/getExplore.js
-[getOS]:https://github.com/striveDJiang/utils/blob/master/device/getOS.js
-
-[getScrollTop]:https://github.com/striveDJiang/utils/blob/master/dom/getScrollTop.js
-[offset]:https://github.com/striveDJiang/utils/blob/master/dom/offset.js
-[scrollTo]:https://github.com/striveDJiang/utils/blob/master/dom/scrollTo.js
-[setScrollTop]:https://github.com/striveDJiang/utils/blob/master/dom/setScrollTop.js
-
-[debounce]:https://github.com/striveDJiang/utils/blob/master/function/debounce.js
-[throttle]:https://github.com/striveDJiang/utils/blob/master/function/throttle.js
-
-[getKeyName]:https://github.com/striveDJiang/utils/blob/master/keycode/getKeyName.js
-
-[deepClone]:https://github.com/striveDJiang/utils/blob/master/object/deepClone.js
-[isEmptyObject]:https://github.com/striveDJiang/utils/blob/master/object/isEmptyObject.js
-[dataType]:https://github.com/striveDJiang/utils/blob/master/object/dataType.js
-
-[randomColor]:https://github.com/striveDJiang/utils/blob/master/random/randomColor.js
-[randomNum]:https://github.com/striveDJiang/utils/blob/master/random/randomNum.js
-
-[isEmail]:https://github.com/striveDJiang/utils/blob/master/regexp/isEmail.js
-[isIdCard]:https://github.com/striveDJiang/utils/blob/master/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/striveDJiang/utils/blob/master/regexp/isPhoneNum.js
-[isUrl]:https://github.com/striveDJiang/utils/blob/master/regexp/isUrl.js
-
-[digitUppercase]:https://github.com/striveDJiang/utils/blob/master/string/digitUppercase.js
-[removeSpace]:https://github.com/striveDJiang/utils/blob/master/string/removeSpace.js
-[changeCase]:https://github.com/striveDJiang/utils/blob/master/string/changeCase.js
-[repeatCopy]:https://github.com/striveDJiang/utils/blob/master/string/repeatCopy.js
-[stringReplace]:https://github.com/striveDJiang/utils/blob/master/string/stringReplace.js
-[stringFormat]:https://github.com/striveDJiang/utils/blob/master/string/stringFormat.js
-
-[isSupportWebP]:https://github.com/striveDJiang/utils/blob/master/support/isSupportWebP.js
-
-[formatPassTime]:https://github.com/striveDJiang/utils/blob/master/time/formatPassTime.js
-[formatRemainTime]:https://github.com/striveDJiang/utils/blob/master/time/formatRemainTime.js
-
-[parseQueryString]:https://github.com/striveDJiang/utils/blob/master/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/striveDJiang/utils/blob/master/url/stringfyQueryString.js
