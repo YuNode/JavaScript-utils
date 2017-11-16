@@ -1,4 +1,4 @@
-# utils
+# JavaScript-utils
 
 ### Array  
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
