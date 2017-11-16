@@ -46,6 +46,10 @@
 
 ### String  
 #### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
+#### &emsp;&emsp;[removeSpace][removeSpace]&emsp;&emsp;字符串去除空格
+#### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;字符串大小写转换
+#### &emsp;&emsp;[repeatCopy][repeatCopy]&emsp;&emsp;重复复制
+#### &emsp;&emsp;[stringReplace][stringReplace]&emsp;&emsp;字符串替换
 
 ### Support  
 #### &emsp;&emsp;[isSupportWebP][isSupportWebP]&emsp;&emsp;判断浏览器是否支持webP格式图片
@@ -94,6 +98,10 @@
 [isUrl]:https://github.com/striveDJiang/utils/blob/master/regexp/isUrl.js
 
 [digitUppercase]:https://github.com/striveDJiang/utils/blob/master/string/digitUppercase.js
+[removeSpace]:https://github.com/striveDJiang/utils/blob/master/string/removeSpace.js
+[changeCase]:https://github.com/striveDJiang/utils/blob/master/string/changeCase.js
+[repeatCopy]:https://github.com/striveDJiang/utils/blob/master/string/repeatCopy.js
+[stringReplace]:https://github.com/striveDJiang/utils/blob/master/string/stringReplace.js
 
 [isSupportWebP]:https://github.com/striveDJiang/utils/blob/master/support/isSupportWebP.js
 
