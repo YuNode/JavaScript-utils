@@ -1,9 +1,9 @@
-# JavaScript-utils 
+JavaScript-utils 
 ============
 
 > JavaScript工具函数库
 
-### array
+## array
 * [arrayDisorder]&emsp;&emsp;[打乱数组顺序](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayDisorder.js)
 * [arrayEqual]&emsp;&emsp;[判断两个数组是否相等](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayEqual.js)
 * [arrayFlattening]&emsp;&emsp;[数组扁平化](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayFlattening.js)
