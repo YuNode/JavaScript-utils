@@ -13,4 +13,5 @@ function removeClass(ele, cls) {
         ele.className = ele.className.replace(reg, ' ');
     }
 }
+
 module.exports = removeClass;

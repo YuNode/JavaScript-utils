@@ -9,6 +9,8 @@
 #### &emsp;&emsp;[arraySum][arraySum]&emsp;&emsp;数组求和
 #### &emsp;&emsp;[arrayRandom][arrayRandom]&emsp;&emsp;从数组中随机获取元素
 #### &emsp;&emsp;[getEleCount][getEleCount]&emsp;&emsp;返回数组或字符串中一个元素出现的次数
+#### &emsp;&emsp;[getCount][getCount]&emsp;&emsp;返回数组(或字符串)中出现最多的元素和出现次数
+#### &emsp;&emsp;[arrayFlattening][arrayFlattening]&emsp;&emsp;数组扁平化
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
@@ -40,6 +42,7 @@
 ### Object  
 #### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
 #### &emsp;&emsp;[isEmptyObject][isEmptyObject]&emsp;&emsp;判断Object是否为空
+#### &emsp;&emsp;[dataType][dataType]&emsp;&emsp;判断Object是否为空
 
 ### Random  
 #### &emsp;&emsp;[randomColor][randomColor] &emsp;&emsp;随机生成颜色
@@ -79,6 +82,8 @@
 [arraySum]:https://github.com/striveDJiang/utils/blob/master/array/arraySum.js
 [arrayRandom]:https://github.com/striveDJiang/utils/blob/master/array/arrayRandom.js
 [getEleCount]:https://github.com/striveDJiang/utils/blob/master/array/getEleCount.js
+[getCount]:https://github.com/striveDJiang/utils/blob/master/array/getCount.js
+[arrayFlattening]:https://github.com/striveDJiang/utils/blob/master/array/arrayFlattening.js
 
 [addClass]:https://github.com/striveDJiang/utils/blob/master/class/addClass.js
 [hasClass]:https://github.com/striveDJiang/utils/blob/master/class/hasClass.js
@@ -103,6 +108,7 @@
 
 [deepClone]:https://github.com/striveDJiang/utils/blob/master/object/deepClone.js
 [isEmptyObject]:https://github.com/striveDJiang/utils/blob/master/object/isEmptyObject.js
+[dataType]:https://github.com/striveDJiang/utils/blob/master/object/dataType.js
 
 [randomColor]:https://github.com/striveDJiang/utils/blob/master/random/randomColor.js
 [randomNum]:https://github.com/striveDJiang/utils/blob/master/random/randomNum.js
