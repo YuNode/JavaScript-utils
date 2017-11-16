@@ -2,6 +2,13 @@
 
 ### Array  
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
+#### &emsp;&emsp;[arrayRemoveRepeat][arrayRemoveRepeat]&emsp;&emsp;数组去重
+#### &emsp;&emsp;[arrayDisorder][arrayDisorder]&emsp;&emsp;打乱数组顺序
+#### &emsp;&emsp;[maxArr][maxArr]&emsp;&emsp;找出数组中的最大值
+#### &emsp;&emsp;[minArr][minArr]&emsp;&emsp;找出数组中的最小值
+#### &emsp;&emsp;[arraySum][arraySum]&emsp;&emsp;数组求和
+#### &emsp;&emsp;[arrayRandom][arrayRandom]&emsp;&emsp;从数组中随机获取元素
+#### &emsp;&emsp;[getEleCount][getEleCount]&emsp;&emsp;返回数组或字符串中一个元素出现的次数
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
@@ -38,7 +45,7 @@
 #### &emsp;&emsp;[randomColor][randomColor] &emsp;&emsp;随机生成颜色
 #### &emsp;&emsp;[randomNum][randomNum]&emsp;&emsp;生成指定范围随机数 
 
-### Regexp  
+### RegExp  
 #### &emsp;&emsp;[isEmail][isEmail]&emsp;&emsp;判断是否为邮箱地址 
 #### &emsp;&emsp;[isIdCard][isIdCard]&emsp;&emsp;判断是否为身份证号
 #### &emsp;&emsp;[isPhoneNum][isPhoneNum]&emsp;&emsp;判断是否为手机号  
@@ -46,10 +53,11 @@
 
 ### String  
 #### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
-#### &emsp;&emsp;[removeSpace][removeSpace]&emsp;&emsp;字符串去除空格
-#### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;字符串大小写转换
+#### &emsp;&emsp;[removeSpace][removeSpace]&emsp;&emsp;去除空格
+#### &emsp;&emsp;[changeCase][changeCase]&emsp;&emsp;大小写转换
 #### &emsp;&emsp;[repeatCopy][repeatCopy]&emsp;&emsp;重复复制
 #### &emsp;&emsp;[stringReplace][stringReplace]&emsp;&emsp;字符串替换
+#### &emsp;&emsp;[stringFormat][stringFormat]&emsp;&emsp;字符串格式化
 
 ### Support  
 #### &emsp;&emsp;[isSupportWebP][isSupportWebP]&emsp;&emsp;判断浏览器是否支持webP格式图片
@@ -64,6 +72,13 @@
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/striveDJiang/utils/blob/master/array/arrayEqual.js
+[arrayRemoveRepeat]:https://github.com/striveDJiang/utils/blob/master/array/arrayRemoveRepeat.js
+[arrayDisorder]:https://github.com/striveDJiang/utils/blob/master/array/arrayDisorder.js
+[maxArr]:https://github.com/striveDJiang/utils/blob/master/array/maxArr.js
+[minArr]:https://github.com/striveDJiang/utils/blob/master/array/minArr.js
+[arraySum]:https://github.com/striveDJiang/utils/blob/master/array/arraySum.js
+[arrayRandom]:https://github.com/striveDJiang/utils/blob/master/array/arrayRandom.js
+[getEleCount]:https://github.com/striveDJiang/utils/blob/master/array/getEleCount.js
 
 [addClass]:https://github.com/striveDJiang/utils/blob/master/class/addClass.js
 [hasClass]:https://github.com/striveDJiang/utils/blob/master/class/hasClass.js
@@ -102,6 +117,7 @@
 [changeCase]:https://github.com/striveDJiang/utils/blob/master/string/changeCase.js
 [repeatCopy]:https://github.com/striveDJiang/utils/blob/master/string/repeatCopy.js
 [stringReplace]:https://github.com/striveDJiang/utils/blob/master/string/stringReplace.js
+[stringFormat]:https://github.com/striveDJiang/utils/blob/master/string/stringFormat.js
 
 [isSupportWebP]:https://github.com/striveDJiang/utils/blob/master/support/isSupportWebP.js
 
