@@ -59,46 +59,46 @@
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/striveDJiang/utils/array/arrayEqual.js
+[arrayEqual]:https://github.com/striveDJiang/utils/master/array/arrayEqual.js
 
-[addClass]:https://github.com/striveDJiang/utils/class/addClass.js
-[hasClass]:https://github.com/striveDJiang/utils/class/hasClass.js
-[removeClass]:https://github.com/striveDJiang/utils/class/removeClass.js
+[addClass]:https://github.com/striveDJiang/utils/master/class/addClass.js
+[hasClass]:https://github.com/striveDJiang/utils/master/class/hasClass.js
+[removeClass]:https://github.com/striveDJiang/utils/master/class/removeClass.js
 
-[getCookie]:https://github.com/striveDJiang/utils/cookie/getCookie.js
-[removeCookie]:https://github.com/striveDJiang/utils/cookie/removeCookie.js
-[setCookie]:https://github.com/striveDJiang/utils/cookie/setCookie.js
+[getCookie]:https://github.com/striveDJiang/utils/master/cookie/getCookie.js
+[removeCookie]:https://github.com/striveDJiang/utils/master/cookie/removeCookie.js
+[setCookie]:https://github.com/striveDJiang/utils/master/cookie/setCookie.js
 
-[getExplore]:https://github.com/striveDJiang/utils/device/getExplore.js
-[getOS]:https://github.com/striveDJiang/utils/device/getOS.js
+[getExplore]:https://github.com/striveDJiang/utils/master/device/getExplore.js
+[getOS]:https://github.com/striveDJiang/utils/master/device/getOS.js
 
-[getScrollTop]:https://github.com/striveDJiang/utils/dom/getScrollTop.js
-[offset]:https://github.com/striveDJiang/utils/dom/offset.js
-[scrollTo]:https://github.com/striveDJiang/utils/dom/scrollTo.js
-[setScrollTop]:https://github.com/striveDJiang/utils/dom/setScrollTop.js
+[getScrollTop]:https://github.com/striveDJiang/utils/master/dom/getScrollTop.js
+[offset]:https://github.com/striveDJiang/utils/master/dom/offset.js
+[scrollTo]:https://github.com/striveDJiang/utils/master/dom/scrollTo.js
+[setScrollTop]:https://github.com/striveDJiang/utils/master/dom/setScrollTop.js
 
-[debounce]:https://github.com/striveDJiang/utils/function/debounce.js
-[throttle]:https://github.com/striveDJiang/utils/function/throttle.js
+[debounce]:https://github.com/striveDJiang/utils/master/function/debounce.js
+[throttle]:https://github.com/striveDJiang/utils/master/function/throttle.js
 
-[getKeyName]:https://github.com/striveDJiang/utils/keycode/getKeyName.js
+[getKeyName]:https://github.com/striveDJiang/utils/master/keycode/getKeyName.js
 
-[deepClone]:https://github.com/striveDJiang/utils/object/deepClone.js
-[isEmptyObject]:https://github.com/striveDJiang/utils/object/isEmptyObject.js
+[deepClone]:https://github.com/striveDJiang/utils/master/object/deepClone.js
+[isEmptyObject]:https://github.com/striveDJiang/utils/master/object/isEmptyObject.js
 
-[randomColor]:https://github.com/striveDJiang/utils/random/randomColor.js
-[randomNum]:https://github.com/striveDJiang/utils/random/randomNum.js
+[randomColor]:https://github.com/striveDJiang/utils/master/random/randomColor.js
+[randomNum]:https://github.com/striveDJiang/utils/master/random/randomNum.js
 
-[isEmail]:https://github.com/striveDJiang/utils/regexp/isEmail.js
-[isIdCard]:https://github.com/striveDJiang/utils/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/striveDJiang/utils/regexp/isPhoneNum.js
-[isUrl]:https://github.com/striveDJiang/utils/regexp/isUrl.js
+[isEmail]:https://github.com/striveDJiang/utils/master/regexp/isEmail.js
+[isIdCard]:https://github.com/striveDJiang/utils/master/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/striveDJiang/utils/master/regexp/isPhoneNum.js
+[isUrl]:https://github.com/striveDJiang/utils/master/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/striveDJiang/utils/string/digitUppercase.js
+[digitUppercase]:https://github.com/striveDJiang/utils/master/string/digitUppercase.js
 
-[isSupportWebP]:https://github.com/striveDJiang/utils/support/isSupportWebP.js
+[isSupportWebP]:https://github.com/striveDJiang/utils/master/support/isSupportWebP.js
 
-[formatPassTime]:https://github.com/striveDJiang/utils/time/formatPassTime.js
-[formatRemainTime]:https://github.com/striveDJiang/utils/time/formatRemainTime.js
+[formatPassTime]:https://github.com/striveDJiang/utils/master/time/formatPassTime.js
+[formatRemainTime]:https://github.com/striveDJiang/utils/master/time/formatRemainTime.js
 
-[parseQueryString]:https://github.com/striveDJiang/utils/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/striveDJiang/utils/url/stringfyQueryString.js
+[parseQueryString]:https://github.com/striveDJiang/utils/master/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/striveDJiang/utils/master/url/stringfyQueryString.js
