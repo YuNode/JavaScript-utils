@@ -37,4 +37,12 @@ function arrayFlattening(arr) {
 //     return newArr;
 // };
 
+// 第三种方法：
+// function arrayFlattening(arr) {
+//     while (arr.some((item) => Array.isArray(item))) {
+//         arr = [].concat(...arr);
+//     }
+//     return arr;
+// };
+
 module.exports = arrayFlattening;
