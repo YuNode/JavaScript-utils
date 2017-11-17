@@ -10,18 +10,18 @@ JavaScript-utils
 * [arrayRandom&nbsp;—&nbsp;从数组中随机获取元素](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayRandom.js)
 * [arrayRemoveRepeat&nbsp;—&nbsp;数组去重](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayRemoveRepeat.js)
 * [arraySum&nbsp;—&nbsp;数组求和（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arraySum.js)
-* [getCount&nbsp;—&nbsp;返回数组(或字符串)中出现最多的元素和出现次数](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/getCount.js)
 * [getEleCount&nbsp;—&nbsp;返回数组或字符串中一个元素出现的次数](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/getEleCount.js)
+* [getCount&nbsp;—&nbsp;返回数组(或字符串)中出现最多的元素和出现次数](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/getCount.js)
 * [maxArr&nbsp;—&nbsp;找出数组中的最大值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/maxArr.js)
 * [minArr&nbsp;—&nbsp;找出数组中的最小值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/minArr.js)
 
 ## string
 * [changeCase&nbsp;—&nbsp;大小写转换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/changeCase.js)
-* [digitUppercase&nbsp;—&nbsp;现金额转大写](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/digitUppercase.js)
 * [removeSpace&nbsp;—&nbsp;字符串去除空格](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/removeSpace.js)
-* [repeatCopy&nbsp;—&nbsp;字符串重复复制](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/repeatCopy.js)
-* [stringFormat&nbsp;—&nbsp;格式化字符串](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringFormat.js)
 * [stringReplace&nbsp;—&nbsp;字符串替换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringReplace.js)
+* [stringFormat&nbsp;—&nbsp;格式化字符串](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringFormat.js)
+* [repeatCopy&nbsp;—&nbsp;字符串重复复制](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/repeatCopy.js)
+* [digitUppercase&nbsp;—&nbsp;现金额转大写](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/digitUppercase.js)
 
 ## object
 * [dataType&nbsp;—&nbsp;数据类型判断](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/dataType.js)
@@ -33,16 +33,16 @@ JavaScript-utils
 * [throttle&nbsp;—&nbsp;函数节流](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/throttle.js)
 
 ## dom
-* [addClass&nbsp;—&nbsp;为元素添加class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/addClass.js)
 * [hasClass&nbsp;—&nbsp;判断元素是否有某个class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/hasClass.js)
+* [addClass&nbsp;—&nbsp;为元素添加class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/addClass.js)
 * [removeClass&nbsp;—&nbsp;为元素移除class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/removeClass.js)
 
 ## bom
+* [isSupportWebP&nbsp;—&nbsp;设置滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/setScrollTop.js)
 * [getScrollTop&nbsp;—&nbsp;获取滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/getScrollTop.js)
-* [isSupportWebP&nbsp;—&nbsp;设置滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
-* [offset&nbsp;—&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
-* [scrollTo&nbsp;—&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
-* [setScrollTop&nbsp;—&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/setScrollTop.js)
+* [offset&nbsp;—&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
+* [scrollTo&nbsp;—&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
+* [setScrollTop&nbsp;—&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
 
 ## date
 * [formatPassTime&nbsp;—&nbsp;格式化${startTime}距现在的已过时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatPassTime.js)
@@ -63,10 +63,9 @@ JavaScript-utils
 * [stringfyQueryString&nbsp;—&nbsp;对象序列化](https://github.com/striveDJiang/JavaScript-utils/blob/master/url/stringfyQueryString.js)
 
 ## cookie
+* [setCookie&nbsp;—&nbsp;设置Cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/setCookie.js)
 * [getCookie&nbsp;—&nbsp;根据name读取cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/getCookie.js)
 * [removeCookie&nbsp;—&nbsp;根据name删除cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/removeCookie.js)
-* [removeCookie&nbsp;—&nbsp;根据name删除cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/removeCookie.js)
-* [setCookie&nbsp;—&nbsp;设置Cookie](https://github.com/striveDJiang/JavaScript-utils/blob/master/cookie/setCookie.js)
 
 ## device
 * [getExplore&nbsp;—&nbsp;获取浏览器类型和版本](https://github.com/striveDJiang/JavaScript-utils/blob/master/device/getExplore.js)
