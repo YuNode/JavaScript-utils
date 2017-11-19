@@ -38,11 +38,11 @@ JavaScript-utils
 * [removeClass&nbsp;—&nbsp;为元素移除class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/removeClass.js)
 
 ## bom
-* [isSupportWebP&nbsp;—&nbsp;设置滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/setScrollTop.js)
+* [setScrollTop&nbsp;—&nbsp;设置滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/setScrollTop.js)
 * [getScrollTop&nbsp;—&nbsp;获取滚动条距顶部的距离](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/getScrollTop.js)
-* [offset&nbsp;—&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
-* [scrollTo&nbsp;—&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
-* [setScrollTop&nbsp;—&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
+* [scrollTo&nbsp;—&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
+* [offset&nbsp;—&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
+* [isSupportWebP&nbsp;—&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
 
 ## date
 * [formatPassTime&nbsp;—&nbsp;格式化${startTime}距现在的已过时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatPassTime.js)
