@@ -16,8 +16,8 @@ function arrayFlattening(arr) {
         } else {
             // 不是数组直接 push 到 newArr 中
             newArr.push(arr[i]);
-        }
-    }
+        };
+    };
     return newArr;
 };
 

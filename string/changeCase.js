@@ -40,4 +40,4 @@ function changeCase(str, type) {
     }
 };
 
-module.exports = changeCase
+module.exports = changeCase;

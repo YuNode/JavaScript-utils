@@ -22,6 +22,6 @@ function getExplore() {
     if (sys.opera) return ('Opera: ' + sys.opera)
     if (sys.safari) return ('Safari: ' + sys.safari)
     return 'Unkonwn'
-}
+};
 
 module.exports = getExplore;

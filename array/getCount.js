@@ -17,14 +17,14 @@ function getCount(arr, rank, ranktype) {
         } else {
             obj[k] = 1;
         }
-    }
+    };
     //保存结果{el:'元素'，count:出现次数}
     for (var o in obj) {
         arr1.push({
             el: o,
             count: obj[o]
         });
-    }
+    };
     //排序（降序）
     arr1.sort(function (n1, n2) {
         return n2.count - n1.count

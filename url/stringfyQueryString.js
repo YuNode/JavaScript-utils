@@ -24,4 +24,4 @@ function stringfyQueryString(obj) {
     return pairs.join('&');
 }
 
-module.exports = stringfyQueryString
+module.exports = stringfyQueryString;

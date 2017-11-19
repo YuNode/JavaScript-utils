@@ -11,7 +11,7 @@ function getEleCount(obj, ele) {
         if (ele === obj[i]) {
             num++;
         }
-    }
+    };
     return num;
 };
 

@@ -13,4 +13,4 @@ function parseQueryString(url) {
     return JSON.parse('{"' + decodeURIComponent(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}')
 }
 
-module.exports = parseQueryString
+module.exports = parseQueryString;

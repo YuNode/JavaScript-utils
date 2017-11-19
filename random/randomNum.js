@@ -12,11 +12,11 @@ function randomNum(min, max) {
     }
     // 如果只传入一个参数，返回0到min范围的随机数，包括0，min
     else if (arguments.length === 1) {
-        return Math.round(Math.random() * min)
+        return Math.round(Math.random() * min);
     }
     // 如果不传入参数，返回0到255范围的随机数，包括0，255
     else {
-        return Math.round(Math.random() * 255)
+        return Math.round(Math.random() * 255);
     }
 };
 

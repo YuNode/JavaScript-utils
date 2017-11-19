@@ -13,6 +13,6 @@ function getCookie(name) {
         }
     }
     return '';
-}
+};
 
 module.exports = getCookie

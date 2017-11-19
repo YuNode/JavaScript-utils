@@ -14,6 +14,6 @@ function getOS() {
     if (/iphone/i.test(userAgent) || /ipad/i.test(userAgent) || /ipod/i.test(userAgent)) 'ios'
     if (/android/i.test(userAgent)) return 'android'
     if (/win/i.test(appVersion) && /phone/i.test(userAgent)) return 'windowsPhone'
-}
+};
 
 module.exports = getOS;

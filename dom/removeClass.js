@@ -12,6 +12,6 @@ function removeClass(ele, cls) {
         var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
         ele.className = ele.className.replace(reg, ' ');
     }
-}
+};
 
 module.exports = removeClass;
