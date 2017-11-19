@@ -3,6 +3,14 @@ JavaScript-utils
 
 > JavaScript工具函数库
 
+## string
+* [changeCase&nbsp;-&nbsp;大小写转换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/changeCase.js)
+* [removeSpace&nbsp;-&nbsp;字符串去除空格](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/removeSpace.js)
+* [stringReplace&nbsp;-&nbsp;字符串替换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringReplace.js)
+* [stringFormat&nbsp;-&nbsp;格式化字符串](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringFormat.js)
+* [repeatCopy&nbsp;-&nbsp;字符串重复复制](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/repeatCopy.js)
+* [digitUppercase&nbsp;-&nbsp;现金额转大写](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/digitUppercase.js)
+
 ## array
 * [arrayDisorder&nbsp;-&nbsp;打乱数组顺序](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayDisorder.js)
 * [arrayEqual&nbsp;-&nbsp;判断两个数组是否相等](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/arrayEqual.js)
@@ -15,22 +23,22 @@ JavaScript-utils
 * [maxArr&nbsp;-&nbsp;找出数组中的最大值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/maxArr.js)
 * [minArr&nbsp;-&nbsp;找出数组中的最小值（数字类型的数组）](https://github.com/striveDJiang/JavaScript-utils/blob/master/array/minArr.js)
 
-## string
-* [changeCase&nbsp;-&nbsp;大小写转换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/changeCase.js)
-* [removeSpace&nbsp;-&nbsp;字符串去除空格](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/removeSpace.js)
-* [stringReplace&nbsp;-&nbsp;字符串替换](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringReplace.js)
-* [stringFormat&nbsp;-&nbsp;格式化字符串](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/stringFormat.js)
-* [repeatCopy&nbsp;-&nbsp;字符串重复复制](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/repeatCopy.js)
-* [digitUppercase&nbsp;-&nbsp;现金额转大写](https://github.com/striveDJiang/JavaScript-utils/blob/master/string/digitUppercase.js)
+## function
+* [debounce&nbsp;-&nbsp;函数防抖](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/debounce.js)
+* [throttle&nbsp;-&nbsp;函数节流](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/throttle.js)
 
 ## object
 * [dataType&nbsp;-&nbsp;数据类型判断](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/dataType.js)
 * [deepClone&nbsp;-&nbsp;深拷贝，支持常见类型](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/deepClone.js)
 * [isEmptyObject&nbsp;-&nbsp;判断obj是否为空](https://github.com/striveDJiang/JavaScript-utils/blob/master/object/isEmptyObject.js)
 
-## function
-* [debounce&nbsp;-&nbsp;函数防抖](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/debounce.js)
-* [throttle&nbsp;-&nbsp;函数节流](https://github.com/striveDJiang/JavaScript-utils/blob/master/function/throttle.js)
+## date
+* [formatPassTime&nbsp;-&nbsp;格式化${startTime}距现在的已过时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatPassTime.js)
+* [formatRemainTime&nbsp;-&nbsp;格式化现在距${endTime}的剩余时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatRemainTime.js)
+
+## random
+* [randomColor&nbsp;-&nbsp;随机生成颜色](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomColor.js)
+* [randomNum&nbsp;-&nbsp;生成指定范围随机数](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomNum.js)
 
 ## dom
 * [hasClass&nbsp;-&nbsp;判断元素是否有某个class](https://github.com/striveDJiang/JavaScript-utils/blob/master/dom/hasClass.js)
@@ -43,14 +51,6 @@ JavaScript-utils
 * [scrollTo&nbsp;-&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
 * [offset&nbsp;-&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
 * [isSupportWebP&nbsp;-&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
-
-## date
-* [formatPassTime&nbsp;-&nbsp;格式化${startTime}距现在的已过时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatPassTime.js)
-* [formatRemainTime&nbsp;-&nbsp;格式化现在距${endTime}的剩余时间](https://github.com/striveDJiang/JavaScript-utils/blob/master/date/formatRemainTime.js)
-
-## random
-* [randomColor&nbsp;-&nbsp;随机生成颜色](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomColor.js)
-* [randomNum&nbsp;-&nbsp;生成指定范围随机数](https://github.com/striveDJiang/JavaScript-utils/blob/master/random/randomNum.js)
 
 ## regexp
 * [isEmail&nbsp;-&nbsp;判断是否为邮箱地址](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isEmail.js)
