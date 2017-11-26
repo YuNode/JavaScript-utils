@@ -11,4 +11,4 @@ function stringReplace(str, FindText, RegText) {
     return str.replace(fRegExp, RegText);
 };
 
-module.exports = stringReplace
+module.exports = stringReplace;

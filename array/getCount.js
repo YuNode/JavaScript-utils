@@ -16,7 +16,7 @@ function getCount(arr, rank, ranktype) {
             obj[k]++;
         } else {
             obj[k] = 1;
-        }
+        };
     };
     //保存结果{el:'元素'，count:出现次数}
     for (var o in obj) {
@@ -27,12 +27,12 @@ function getCount(arr, rank, ranktype) {
     };
     //排序（降序）
     arr1.sort(function (n1, n2) {
-        return n2.count - n1.count
+        return n2.count - n1.count;
     });
     //如果ranktype为1，则为升序，反转数组
     if (ranktype === 1) {
         arr1 = arr1.reverse();
-    }
+    };
     var rank1 = rank || arr1.length;
     return arr1.slice(0, rank1);
 };

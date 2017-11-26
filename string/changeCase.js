@@ -7,7 +7,7 @@
  */
 function changeCase(str, type) {
     function ToggleCase(str) {
-        var itemText = ""
+        var itemText = "";
         str.split("").forEach(
             function (item) {
                 if (/^([a-z]+)/.test(item)) {
@@ -37,7 +37,7 @@ function changeCase(str, type) {
             return str.toLowerCase();
         default:
             return str;
-    }
+    };
 };
 
 module.exports = changeCase;

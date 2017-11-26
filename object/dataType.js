@@ -8,7 +8,7 @@
 function dataType(o, type) {
     if (type) {
         var _type = type.toLowerCase();
-    }
+    };
     switch (_type) {
         case 'string':
             return Object.prototype.toString.call(o) === '[object String]';
@@ -29,10 +29,10 @@ function dataType(o, type) {
         case 'nan':
             return isNaN(o);
         case 'elements':
-            return Object.prototype.toString.call(o).indexOf('HTML') !== -1
+            return Object.prototype.toString.call(o).indexOf('HTML') !== -1;
         default:
-            return Object.prototype.toString.call(o)
-    }
+            return Object.prototype.toString.call(o);
+    };
 };
 
-module.exports = dataType
+module.exports = dataType;

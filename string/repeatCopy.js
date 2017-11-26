@@ -9,8 +9,8 @@ function repeatCopy(str, count) {
     var text = '';
     for (var i = 0; i < count; i++) {
         text += str;
-    }
+    };
     return text;
 };
 
-module.exports = repeatCopy
+module.exports = repeatCopy;

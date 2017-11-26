@@ -15,6 +15,6 @@ function offset(ele) {
         ele = ele.offsetParent;
     };
     return pos;
-}
+};
 
 module.exports = offset;

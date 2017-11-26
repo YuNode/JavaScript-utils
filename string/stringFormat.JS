@@ -14,4 +14,4 @@ function stringFormat(str, size, delimiter) {
     return str.replace(reg, _delimiter);
 };
 
-module.exports = stringFormat
+module.exports = stringFormat;

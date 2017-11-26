@@ -27,10 +27,10 @@ function arrayRemoveRepeat(arr) {
 //         for (let j = i + 1; j < arr.length; j++) {
 //             if (arr[i] === arr[j]) {
 //                 j = ++i;
-//             }
-//         }
+//             };
+//         };
 //         newarr.push(arr[i]);
-//     }
+//     };
 //     return newarr;
 // };
 

@@ -10,7 +10,7 @@ function getEleCount(obj, ele) {
     for (var i = 0, len = obj.length; i < len; i++) {
         if (ele === obj[i]) {
             num++;
-        }
+        };
     };
     return num;
 };

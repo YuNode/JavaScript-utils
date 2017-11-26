@@ -10,9 +10,9 @@ function getCookie(name) {
         var tempArr = arr[i].split('=');
         if (tempArr[0] == name) {
             return decodeURIComponent(tempArr[1]);
-        }
-    }
+        };
+    };
     return '';
 };
 
-module.exports = getCookie
+module.exports = getCookie;

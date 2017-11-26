@@ -17,7 +17,7 @@ function removeSpace(str, type) {
             return str.replace(/(\s*$)/g, "");
         default:
             return str;
-    }
+    };
 };
 
-module.exports = removeSpace
+module.exports = removeSpace;
