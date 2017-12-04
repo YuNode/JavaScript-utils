@@ -51,6 +51,7 @@ JavaScript-utils
 * [scrollTo&nbsp;-&nbsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/scrollTo.js)
 * [offset&nbsp;-&nbsp;获取一个元素的距离文档(document)的位置，类似jQ中的offset()](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/offset.js)
 * [isSupportWebP&nbsp;-&nbsp;判断浏览器是否支持webP格式图片](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/isSupportWebP.js)
+* [fullScreen&nbsp;-&nbsp;全屏显示与取消全屏](https://github.com/striveDJiang/JavaScript-utils/blob/master/bom/fullScreen.js)
 
 ## regexp
 * [isEmail&nbsp;-&nbsp;判断是否为邮箱地址](https://github.com/striveDJiang/JavaScript-utils/blob/master/regexp/isEmail.js)
